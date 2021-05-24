@@ -1,3 +1,4 @@
+// let's go
 const Discord = require('discord.js');
 const { 
   token, 
@@ -13,7 +14,7 @@ client.on('ready' , () => {
     console.log('Ready!');
 
     command(client, 'help', (message) => {
-        const realHelp = "\n`?avatar: getting any avatar you want.`\n`?cc: for clear messages.`\n`?serverinfo: for server information.`\n`?c-voice: create a voice channel.`\n`?c-text: create a text channel.`\n`?ban: for ban someone.`\n`?kick: for kick someone.`\n`?serverinfo: show info about this server.`\n`?user: get info about any user you want.`\n`?botinfo: get info about this bot.`\n`?invite: invite me to your server (YAY THANKS!).`\n`?roles: show all server roles.`\n`?lock: lock a channel`\n`?unlock: unlock a channel.`"
+        const realHelp = "\n`?avatar: getting any avatar you want.`\n`?cc: for clear messages.`\n`?serverinfo: for server information.`\n`?c-voice: create a voice channel.`\n`?c-text: create a text channel.`\n`?ban: for ban someone.`\n`?kick: for kick someone.`\n`?serverinfo: show info about this server.`\n`?user: get info about any user you want.`\n`?botinfo: get info about this bot.`\n`?invite: invite me to your server (YAY THANKS!).`\n`?roles: show all server roles.`\n`?lock: lock a channel`\n`?unlock: unlock a channel.`\n`"
         const date = new Date().toLocaleDateString('en-us')
         const embed = new Discord.MessageEmbed()
         .setTitle(`**Welcome To ${botName}**.\nHelp For ${botName}`)
@@ -227,7 +228,7 @@ client.on('ready' , () => {
         },
         {
             name: "Source",
-            value: `[Link]`,
+            value: `[Link](https://github.com/tyizo/simple-bot-discord)`,
             inline: true
         }
     )
@@ -397,4 +398,4 @@ client.once('reconnecting', () => {
 
  
 client.login(token);
-
+// ok that's it
