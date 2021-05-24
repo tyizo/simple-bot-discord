@@ -20,7 +20,9 @@ very very basic discord bot written in NodeJS ( discord.js ).
 <h1>What this bot do?</h1>
 <p align="left">like I said, it's very basic bot cuz im exploring discord.js library. So it have commands like:</p>
 <p align="left">
-  ?avatar: getting any avatar you want.
+  <br>
+
+?avatar: getting any avatar you want.
 <br>
 ?cc: for clear messages.
 <br>
@@ -65,3 +67,4 @@ very very basic discord bot written in NodeJS ( discord.js ).
 </p>
 <br>
 <br>
+<h1 align="center">That's it 🪐.</h1>
