@@ -60,6 +60,8 @@ very very basic discord bot written in NodeJS ( discord.js ).
 
 ?unlock: unlock a channel.
 <br>
-?unlock: unlock a channel.
-  
+<br>
+
 </p>
+<br>
+<br>
