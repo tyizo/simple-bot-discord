@@ -18,7 +18,7 @@ very very basic discord bot written in NodeJS ( discord.js ).
 <br>
 <br>
 <h1>What this bot do?</h1>
-<p align="left">like a said, it's very basic bot cuz im exploring discord.js library. So it have commands like:</p>
+<p align="left">like I said, it's very basic bot cuz im exploring discord.js library. So it have commands like:</p>
 <p align="left">
   ?avatar: getting any avatar you want.
 <br>
